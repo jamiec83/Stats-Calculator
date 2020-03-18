@@ -37,13 +37,14 @@ Mini_project2
                 1. Multiply multiple numbers
        5. Mean
             1. Methods
-                1. 
+                1. Use Sum of values and Divide by values
        6. Median
             1. Methods
+                1. Numpy.Median
                
        7. Mode 
             1. Methods
-               
+                1. Numpy.Mode
        8. Variance
             1. Methods
 
