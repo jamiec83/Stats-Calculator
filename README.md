@@ -21,7 +21,9 @@ Mini_project2
         12. Sample Correlation - Calls Sample Correlation method
         13. Population Correlation - Calls Population Correlation method
         14. Z-Score - Calls Z-Score method
-        15. Mean Deviation - Calls Mean Deviation method  
+        15. Mean Deviation - Calls Mean Deviation method 
+        16. Square - Calls Square method
+        17. Square Root - Calls Square Root method 
     3. Operation Classes
        1. Addition
             1. Methods
@@ -41,13 +43,11 @@ Mini_project2
        6. Median
             1. Methods
                 1. Numpy.Median
-               
        7. Mode 
             1. Methods
                 1. Numpy.Mode
        8. Variance
             1. Methods
-
        9. Standard Deviation
             1. Methods
        10. Quartiles
@@ -62,3 +62,9 @@ Mini_project2
             1. Methods
        15. Mean Deviation 
             1. Methods
+       16. Square
+            1. Methods
+                1. Square 2 numbers
+       17. SquareRoot
+            1. Methods
+                1. Square Root of 2 numbers
