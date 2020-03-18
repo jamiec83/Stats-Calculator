@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jamiec83/Stats-Calculator.svg?branch=master)](https://travis-ci.com/jamiec83/Stats-Calculator)
+
 # Stats_calculator_project
 Mini_project2
 
