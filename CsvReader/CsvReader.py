@@ -2,6 +2,7 @@ import csv
 from Fileutilities.absolutepath import absolutepath
 
 
+
 def ClassFactory(class_name, dictionary):
     return type(class_name, (object,), dictionary)
 
@@ -23,3 +24,14 @@ class CsvReader:
         for row in self.data:
             objects.append(ClassFactory(class_name, row))
         return objects
+
+
+with open('Log.csv', mode='w') as log_file:
+    fieldnames = ['Hash', 'User', 'Date', 'Description']
+    log_writer = csv.DictWriter(log_file, fieldnames=fieldnames)
+
+    log_writer.writeheader()
+    log_writer.writerow({'Hash': '', 'User': '', 'Date': '', 'Description': ''})
+    log_writer.writerow({'Hash': '', 'User': '', 'Date': '', 'Description': ''})
+    log_writer.writerow({'Hash': '', 'User': '', 'Date': '', 'Description': ''})
+
