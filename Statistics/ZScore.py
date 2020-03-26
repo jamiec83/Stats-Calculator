@@ -6,7 +6,6 @@ from Statistics.Mean import mean
 from Statistics.Std_Deviation import sdeviation
 
 
-
 def ZScore(num):
     z_mean = mean(num)
     sdev = sdeviation(num)
@@ -15,7 +14,3 @@ def ZScore(num):
         z = round(((x - z_mean) / sdev), 6)
         z_list.append(z)
     return z_list
-
-
-
-
