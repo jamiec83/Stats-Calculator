@@ -1,10 +1,11 @@
-import numpy
+import numpy as np
+
 
 
 def mode(data, num):
     try:
         num_value = len(num)
-        count = numpy(num)
+        count = np(num)
         result = dict(count)
         mode = [i for i, m in result.items() if m == max(list(count.values()))]
         if len(mode) == num_value:
@@ -15,5 +16,6 @@ def mode(data, num):
 
     except ZeroDivisionError:
         print("Watch out: You are dividing by Zero!")
-    return numpy.mode(data)
+    return np.mode(data)
+
 
