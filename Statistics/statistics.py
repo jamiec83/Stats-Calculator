@@ -18,4 +18,31 @@ class Statistics(Calculator):
 
     def __init__(self):
         super().__init__()
-        
+
+    def median (self,data):
+        self.result = median(data)
+        return self.result
+
+    def mode(self,data):
+        self.result = mode(data)
+        return self.result
+
+    def mean(self,data):
+        self.result = mean(data)
+        return self.result
+
+    def sdeviation(self,data):
+        self.result = sdeviation(data)
+        return self.result
+
+    def variance(self,data):
+        self.result = variance(data)
+        return self.result
+
+    def ZScore(self,data):
+        self.result = zscore(data)
+        return self.result
+
+    def pop_correlation(self,data):
+        self.result = pop_correlation(data)
+        return self.result
