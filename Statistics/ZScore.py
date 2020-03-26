@@ -7,6 +7,15 @@ from Statistics.Std_Deviation import sdeviation
 
 
 
+def ZScore(num):
+    z_mean = mean(num)
+    sdev = sdeviation(num)
+    z_list = []
+    for x in num:
+        z = round(((x - z_mean) / sdev), 6)
+        z_list.append(z)
+    return z_list
+
 
 
 
