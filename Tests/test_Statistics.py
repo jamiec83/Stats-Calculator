@@ -18,16 +18,11 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.result, 0)
 
     def test_mean_method_calculator(self):
-        for row in self.test_data:
+        for row in self.test_answer:
             self.assertEqual(self.statistics.mean(self.column1), float(row['mean']))
             self.assertEqual(self.statistics.result, float(row['mean']))
 
-    def test_median_method_calculator(self):
-        for row in self.test_data:
-            self.assertEqual(self.statistics.median(self.column1),row['median'])
-            self.assertEqual(self.statistics.result, row['median'])
-
     def test_mode_method_calculator(self):
-        for row in self.test_data:
-            self.assertEqual(self.statistics.mode(self.column1), row['mode'])
-            self.assertEqual(self.statistics.result, row['mode'])
+        for row in self.test_answer:
+            self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
+            self.assertEqual(self.statistics.result, float(row['mode']))

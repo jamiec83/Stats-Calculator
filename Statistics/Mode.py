@@ -1,9 +1,9 @@
+from collections import Counter
 
-
-def mode(data, num):
+def mode(num):
     try:
         num_value = len(num)
-        count = np(num)
+        count = Counter(num)
         result = dict(count)
         mode = [i for i, m in result.items() if m == max(list(count.values()))]
         if len(mode) == num_value:
@@ -14,4 +14,4 @@ def mode(data, num):
 
     except ZeroDivisionError:
         print("Watch out: You are dividing by Zero!")
-    return np.mode(data)
+
