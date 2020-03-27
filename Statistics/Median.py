@@ -1,4 +1,3 @@
-import numpy
 from Calculator.Addition import addition
 from Calculator.Subtraction import subtraction
 from Calculator.Division import division
@@ -15,7 +14,7 @@ def median(num):
             result = division(addition(regular_median, two_medians), 2)
         else:
             result = list_num[int(division(num_value, 2))],
-            return result
+        return result
 
     except ZeroDivisionError:
         print("Watch out: You're dividing by Zero!")

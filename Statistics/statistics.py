@@ -10,9 +10,6 @@ from Statistics.Quartiles import quartiles
 from Statistics.MeanDev import meandev
 from Statistics.ZScore import ZScore
 
-from CsvReader.CsvReader import CsvReader
-
-
 
 class Statistics(Calculator):
     data = []
@@ -20,7 +17,7 @@ class Statistics(Calculator):
     def __init__(self):
         super().__init__()
 
-    def median (self, data):
+    def median(self, data):
         self.result = median(data)
         return self.result
 
@@ -48,14 +45,14 @@ class Statistics(Calculator):
         self.result = correlation(data)
         return self.result
 
-    def quartiles(self,data):
+    def quartiles(self, data):
         self.result = quartiles(data)
         return self.result
 
-    def skewness(self,data):
+    def skewness(self, data):
         self.result = skewness(data)
         return self.result
 
-    def meandev(self,data):
+    def meandev(self, data):
         self.result = meandev(data)
         return self.result

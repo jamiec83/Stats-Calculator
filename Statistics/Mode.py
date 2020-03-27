@@ -1,4 +1,3 @@
-import numpy as np
 
 
 def mode(data, num):
