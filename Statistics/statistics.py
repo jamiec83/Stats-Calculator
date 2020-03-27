@@ -56,3 +56,4 @@ class Statistics(Calculator):
     def skewness(self, data):
         self.result = skewness(data)
         return self.result
+

@@ -26,6 +26,12 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.mean(self.column1), float(row['mean']))
             self.assertEqual(self.statistics.result, float(row['mean']))
 
+    def test_median_method_calculator(self):
+        for row in self.test_answer:
+            self.assertEqual(self.statistics.median(self.column1), float(row['median']))
+            self.assertEqual(self.statistics.result, float(row['median']))
+
+
     def test_mode_method_calculator(self):
         for row in self.test_answer:
             self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
@@ -43,7 +49,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_cor_method_calculator(self):
         for row in self.test_answer:
-            self.assertEqual(self.statistics.correlation(self.column1, self.column2), float(row['cor']))
+            self.assertEqual(self.statistics.correlation(self.column1), self.column2, float(row['cor']))
             self.assertEqual(self.statistics.result, float(row['cor']))
 
     def test_zscore_statistics(self):
@@ -53,3 +59,8 @@ class MyTestCase(unittest.TestCase):
     def test_pvalue_statistics(self):
         self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
         self.assertEqual(self.statistics.result, self.column_zscore)
+
+
+
+if __name__ == '__main__':
+    unittest.main()
