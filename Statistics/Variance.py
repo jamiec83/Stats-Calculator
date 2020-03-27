@@ -10,10 +10,7 @@ def variance(num):
         x = 0
         for i in num:
             x = x + square(i - mean_value)
-        return division(x, num_value)
+        return round(division(x, num_value),2)
     except ZeroDivisionError:
         print("Watch out: You're dividing by zero")
-
-
-print("Variance formula created.")
 
