@@ -1,4 +1,3 @@
-import pandas as pd
 
 def meandev(data):
     series = pd.Series(data)

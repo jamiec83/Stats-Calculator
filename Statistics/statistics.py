@@ -5,10 +5,10 @@ from Statistics.Mode import mode
 from Statistics.PopCor import correlation
 from Statistics.Std_Deviation import sd
 from Statistics.Variance import variance
-from Statistics.Skewness import skewness
 from Statistics.Quartiles import quartiles
 from Statistics.MeanDev import meandev
 from Statistics.ZScore import ZScore
+from Statistics.Skewness import skewness
 
 
 class Statistics(Calculator):
@@ -49,10 +49,10 @@ class Statistics(Calculator):
         self.result = quartiles(data)
         return self.result
 
-    def skewness(self, data):
-        self.result = skewness(data)
-        return self.result
-
     def meandev(self, data):
         self.result = meandev(data)
+        return self.result
+
+    def skewness(self, data):
+        self.result = skewness(data)
         return self.result

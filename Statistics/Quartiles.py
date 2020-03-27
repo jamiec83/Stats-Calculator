@@ -1,6 +1,3 @@
-# Import numpy library
-import numpy as np
-
 
 def quartiles(data):
     Q1 = np.percentile(data, 25)
