@@ -1,12 +1,14 @@
 from Calculator.Calculator import Calculator
-from Statistics.ZScore import ZScore
 from Statistics.Mean import mean
 from Statistics.Median import median
 from Statistics.Mode import mode
-from Statistics.PopCor import pop_correlation
-from Statistics.Std_Deviation import sdeviation
+from Statistics.PopCor import correlation
+from Statistics.Std_Deviation import sd
 from Statistics.Variance import variance
-
+from Statistics.Skewness import skewness
+from Statistics.Quartiles import quartiles
+from Statistics.MeanDev import meandev
+from Statistics.ZScore import ZScore
 
 from CsvReader.CsvReader import CsvReader
 
@@ -30,8 +32,8 @@ class Statistics(Calculator):
         self.result = mean(data)
         return self.result
 
-    def sdeviation(self, data):
-        self.result = sdeviation(data)
+    def sd(self, data):
+        self.result = sd(data)
         return self.result
 
     def variance(self, data):
@@ -39,9 +41,21 @@ class Statistics(Calculator):
         return self.result
 
     def ZScore(self, data):
-        self.result = Zscore(data)
+        self.result = ZScore(data)
         return self.result
 
-    def pop_correlation(self, data):
-        self.result = pop_correlation(data)
+    def correlation(self, data):
+        self.result = correlation(data)
+        return self.result
+
+    def quartiles(self,data):
+        self.result = quartiles(data)
+        return self.result
+
+    def skewness(self,data):
+        self.result = skewness(data)
+        return self.result
+
+    def meandev(self,data):
+        self.result = meandev(data)
         return self.result

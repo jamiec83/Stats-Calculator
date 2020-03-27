@@ -1,6 +1,7 @@
 from Statistics.ZScore import ZScore
 
-def pop_correlation(data, data_1):
+
+def correlation(data, data_1):
     try:
         z1 = ZScore(data)
         z2 = ZScore(data_1)

@@ -1,7 +1,6 @@
 import numpy as np
 
 
-
 def mode(data, num):
     try:
         num_value = len(num)
@@ -17,5 +16,3 @@ def mode(data, num):
     except ZeroDivisionError:
         print("Watch out: You are dividing by Zero!")
     return np.mode(data)
-
-

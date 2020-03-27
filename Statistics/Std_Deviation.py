@@ -2,7 +2,7 @@ from Calculator.SquareRoot import squareroot
 from Statistics.Variance import variance
 
 
-def sdeviation(num):
+def sd(num):
     try:
         variance_float = variance(num)
         return round(squareroot(variance_float), 5)
