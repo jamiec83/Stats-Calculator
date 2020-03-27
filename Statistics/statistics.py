@@ -57,3 +57,8 @@ class Statistics(Calculator):
         self.result = skewness(data)
         return self.result
 
+    def p_value(self, data):
+        self.result = p_value(data)
+        return self.result
+
+

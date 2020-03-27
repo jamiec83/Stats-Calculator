@@ -15,6 +15,8 @@ class MyTestCase(unittest.TestCase):
     column_proportion = [float(row['Proportion']) for row in p_answers]
     column_zscore = [float(row['Z-Score']) for row in z_answers]
 
+
+
     def setUp(self) -> None:
         self.statistics = Statistics()
 
@@ -28,8 +30,9 @@ class MyTestCase(unittest.TestCase):
 
     def test_median_method_calculator(self):
         for row in self.test_answer:
-            self.assertEqual(self.statistics.median(self.column1), float(row['median']))
-            self.assertEqual(self.statistics.result, float(row['median']))
+            pprint(row["median"])
+        self.assertEqual(self.statistics.median(self.column1), float(row['median']))
+        self.assertEqual(self.statistics.result, float(row['median']))
 
 
     def test_mode_method_calculator(self):
@@ -49,7 +52,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_cor_method_calculator(self):
         for row in self.test_answer:
-            self.assertEqual(self.statistics.correlation(self.column1), self.column2, float(row['cor']))
+            self.assertEqual(self.statistics.correlation(self.column1, self.column2), float(row['cor']))
             self.assertEqual(self.statistics.result, float(row['cor']))
 
     def test_zscore_statistics(self):

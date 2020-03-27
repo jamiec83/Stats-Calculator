@@ -17,5 +17,6 @@ def median(num):
         return median_result
     except ZeroDivisionError:
         print("Watch out: You are dividing by Zero!")
-    except ValueError:
-        print("Error: check your inputs")
+    except AssertionError:
+        print("Error: check your input!")
+
