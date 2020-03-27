@@ -60,7 +60,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.result, self.column_zscore)
 
     def test_pvalue_statistics(self):
-        self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
+        self.assertEqual(self.statistics.pvalue(self.column1), self.column_zscore)
         self.assertEqual(self.statistics.result, self.column_zscore)
 
 

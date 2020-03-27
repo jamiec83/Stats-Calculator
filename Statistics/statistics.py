@@ -9,6 +9,7 @@ from Statistics.Quartiles import quartiles
 from Statistics.MeanDev import meandev
 from Statistics.ZScore import ZScore
 from Statistics.Skewness import skewness
+from Statistics.pvalue import pvalue
 
 
 class Statistics(Calculator):
@@ -57,8 +58,7 @@ class Statistics(Calculator):
         self.result = skewness(data)
         return self.result
 
-    def p_value(self, data):
-        self.result = p_value(data)
+    def pvalue(self, data):
+        self.result = pvalue(data)
         return self.result
-
 
