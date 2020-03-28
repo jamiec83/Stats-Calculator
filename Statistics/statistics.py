@@ -42,8 +42,8 @@ class Statistics(Calculator):
         self.result = ZScore(data)
         return self.result
 
-    def correlation(self, data):
-        self.result = correlation(data)
+    def correlation(self, data, data1):
+        self.result = correlation(data, data1)
         return self.result
 
     def quartiles(self, data):

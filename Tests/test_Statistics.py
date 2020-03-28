@@ -3,7 +3,11 @@ from pprint import pprint
 from Calculator.Calculator import Calculator
 from CsvReader.CsvReader import CsvReader
 from Statistics.statistics import Statistics
-
+from PopulationSampling.cochran import Cochrans
+from PopulationSampling.confidenceinterval import ConfInt
+from PopulationSampling.knownpopulation import ssk
+from PopulationSampling.marginoferror import marginerror
+from PopulationSampling.unknownpopulationsd import ssu
 
 class MyTestCase(unittest.TestCase):
     test_answer = CsvReader('Tests/Data/StatsAnswers.csv').data
@@ -27,13 +31,6 @@ class MyTestCase(unittest.TestCase):
         for row in self.test_answer:
             self.assertEqual(self.statistics.mean(self.column1), float(row['mean']))
             self.assertEqual(self.statistics.result, float(row['mean']))
-
-    def test_median_method_calculator(self):
-        for row in self.test_answer:
-            pprint(row["median"])
-        self.assertEqual(self.statistics.median(self.column1), float(row['median']))
-        self.assertEqual(self.statistics.result, float(row['median']))
-
 
     def test_mode_method_calculator(self):
         for row in self.test_answer:
@@ -63,6 +60,20 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.pvalue(self.column1), self.column_zscore)
         self.assertEqual(self.statistics.result, self.column_zscore)
 
+    def cochran_statistics(self):
+        print(Cochrans())
+
+    def conf_statistics(self):
+        print(ConfInt())
+
+    def kpop_statistics(self):
+        print(ssk())
+
+    def margin_statistics(self):
+        print(marginerror())
+
+    def upop_statistics(self):
+        print(ssu())
 
 
 if __name__ == '__main__':

@@ -65,6 +65,9 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.calculator.squareroot(row['Value 1']), result)
             self.assertEqual(self.calculator.result, result)
 
+
+
+
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.calculator, Calculator)
 
