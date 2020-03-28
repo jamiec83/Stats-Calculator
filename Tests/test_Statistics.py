@@ -3,11 +3,6 @@ from pprint import pprint
 from Statistics.Median import median
 from CsvReader.CsvReader import CsvReader
 from Statistics.statistics import Statistics
-from PopulationSampling.cochran import Cochrans
-from PopulationSampling.confidenceinterval import ConfInt
-from PopulationSampling.knownpopulation import ssk
-from PopulationSampling.marginoferror import marginerror
-from PopulationSampling.unknownpopulationsd import ssu
 from Statistics.Quartiles import quartiles
 from Statistics.Skewness import skew
 
@@ -65,20 +60,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.pvalue(self.column1), self.column_zscore)
         self.assertEqual(self.statistics.result, self.column_zscore)
 
-    def test_cochran_statistics(self):
-        print(Cochrans(set))
-
-    def test_conf_statistics(self):
-        print(ConfInt(set))
-
-    def test_kpop_statistics(self):
-        print(ssk(set))
-
-    def test_margin_statistics(self):
-        print(marginerror(set))
-
-    def test_upop_statistics(self):
-        print(ssu(set))
 
     def test_quartiles(self):
         print(quartiles(set))
