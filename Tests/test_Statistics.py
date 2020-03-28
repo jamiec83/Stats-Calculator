@@ -1,6 +1,6 @@
 import unittest
 from pprint import pprint
-from Calculator.Calculator import Calculator
+from Statistics.Median import median
 from CsvReader.CsvReader import CsvReader
 from Statistics.statistics import Statistics
 from PopulationSampling.cochran import Cochrans
@@ -35,10 +35,7 @@ class MyTestCase(unittest.TestCase):
             self.assertEqual(self.statistics.result, float(row['mean']))
 
     def test_median_method_calculator(self):
-        for row in self.test_answer:
-            pprint(row["median"])
-        self.assertEqual(self.statistics.median(self.column1), float(row['median']))
-        self.assertEqual(self.statistics.result, float(row['median']))
+        print(median(set))
 
     def test_mode_method_calculator(self):
         for row in self.test_answer:
