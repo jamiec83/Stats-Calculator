@@ -8,7 +8,6 @@ from Statistics.Variance import variance
 from Statistics.Quartiles import quartiles
 from Statistics.MeanDev import meandev
 from Statistics.ZScore import ZScore
-from Statistics.Skewness import skewness
 from Statistics.pvalue import pvalue
 
 

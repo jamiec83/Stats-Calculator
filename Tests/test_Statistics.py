@@ -8,6 +8,8 @@ from PopulationSampling.confidenceinterval import ConfInt
 from PopulationSampling.knownpopulation import ssk
 from PopulationSampling.marginoferror import marginerror
 from PopulationSampling.unknownpopulationsd import ssu
+from Statistics.Quartiles import quartiles
+from Statistics.Skewness import skew
 
 class MyTestCase(unittest.TestCase):
     test_answer = CsvReader('Tests/Data/StatsAnswers.csv').data
@@ -38,7 +40,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.median(self.column1), float(row['median']))
         self.assertEqual(self.statistics.result, float(row['median']))
 
-
     def test_mode_method_calculator(self):
         for row in self.test_answer:
             self.assertEqual(self.statistics.mode(self.column1), float(row['mode']))
@@ -67,21 +68,26 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.pvalue(self.column1), self.column_zscore)
         self.assertEqual(self.statistics.result, self.column_zscore)
 
-    def cochran_statistics(self):
-        print(Cochrans())
+    def test_cochran_statistics(self):
+        print(Cochrans(set))
 
-    def conf_statistics(self):
-        print(ConfInt())
+    def test_conf_statistics(self):
+        print(ConfInt(set))
 
-    def kpop_statistics(self):
-        print(ssk())
+    def test_kpop_statistics(self):
+        print(ssk(set))
 
-    def margin_statistics(self):
-        print(marginerror())
+    def test_margin_statistics(self):
+        print(marginerror(set))
 
-    def upop_statistics(self):
-        print(ssu())
+    def test_upop_statistics(self):
+        print(ssu(set))
 
+    def test_quartiles(self):
+        print(quartiles(set))
+
+    def test_skew(self):
+        print(skew(set))
 
 if __name__ == '__main__':
     unittest.main()

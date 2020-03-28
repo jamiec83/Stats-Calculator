@@ -1,9 +1,11 @@
+from Statistics.Mean import mean
+from Statistics.Median import median
+from Statistics.Std_Deviation import sd
 
-
-def skewness(data):
-    # Using pandas CSV Reader
-    df = pd.data
-
-    # Using pandas to calculate skewness of first row of unit test, error handling with skipna or skip invalid results
-    df.skew(axis=1, skipna=True)
-    return df.skew
+def skew(set):
+    set = list((1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
+    me = mean(set)
+    med = median(set)
+    std = sd(set)
+    sk = (3*(me-med)/std)
+    return sk
