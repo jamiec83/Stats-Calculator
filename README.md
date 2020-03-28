@@ -45,11 +45,9 @@ Mini_project2
         6. Population Correlation - Calls Population Correlation method
         7. Z-Score - Calls Z-Score method
         8. Mean Deviation - Calls Mean Deviation method 
-        9. Cochran - Calls Cochran method
-        10. Confidence Interval - Calls Confidence Interval method
-        11. Known Population - Calls Known Population method
-        12. Margin of Error - Calls Margin of Error method
-        13. Unknown Population - Calls Unknown Population method
+        9. Quartiles - Calls Quartiles method
+        10. Skewness - Calls Skewness method
+
     3. Operation Classes
        1. Mean
             1. Methods
@@ -75,18 +73,36 @@ Mini_project2
        8. Mean Deviation 
             1. Methods
                 1. Calculate difference of values from mean
-       9. Cochran
+       9. Quartiles 
+            1. Methods  
+                1. Sorts data before finding median of quarter sections
+       10. Skewness
+            1. Methods
+                1. Uses Pearson formula 3 times mean - median divided by standard deviation
+                
+3. Statistics Object
+    1. Properties
+        1. Result
+    2. Methods
+        1. Cochran - Calls Cochran method
+        2. Confidence Interval - Calls Confidence Interval method
+        3. Known Population - Calls Known Population method
+        4. Margin of Error - Calls Margin of Error method
+        5. Unknown Population - Calls Unknown Population method
+        
+    3. Operation Classes
+       1. Cochran
             1. Methods
                 1. Using variability, desired confidence level to get z to determine sampling
-       10. Confidence Interval
+       2. Confidence Interval
             1. Methods
                 1. Plus or Minus margin for error on calculation
-       11. Known Population
+       3. Known Population
             1. Methods
                 1. https://people.richland.edu/james/lecture/m170/ch08-mu.html
-       12. Margin of Error
+       4. Margin of Error
             1. Methods
                 1. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/margin-of-error/
-       13. Unknown Population
+       5. Unknown Population
             1. Methods
                 1. https://people.richland.edu/james/lecture/m170/ch08-mu.html
