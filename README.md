@@ -9,7 +9,11 @@ This is the completed testing project for the Stats, Arithmetic, Population Samp
 
 [Population Object](/Information/PopulationObject.md)
 
+[Random Object](/Information/RandomObject.md)
+
 [Project Activity Log](/CsvReader/Log.csv)
+
          
+Tests that read results beside "OK" running message are manually referenced.
 
                 
