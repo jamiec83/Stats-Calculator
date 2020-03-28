@@ -11,19 +11,8 @@ Mini_project2
         2. Subtraction - Calls Subtraction method
         3. Division - Calls Division method
         4. Multiplication - Calls Multiplication method
-        5. Mean - Calls Mean method
-        6. Median - Calls Median method
-        7. Mode - Calls Mode method
-        8. Variance - Calls Variance method
-        9. Standard Deviation - Calls Standard Deviation method
-        10. Quartiles - Calls Quartiles method
-        11. Skewness - Calls Skewness method
-        12. Sample Correlation - Calls Sample Correlation method
-        13. Population Correlation - Calls Population Correlation method
-        14. Z-Score - Calls Z-Score method
-        15. Mean Deviation - Calls Mean Deviation method 
-        16. Square - Calls Square method
-        17. Square Root - Calls Square Root method 
+        5. Square - Calls Square method
+        6. Square Root - Calls Square Root method 
     3. Operation Classes
        1. Addition
             1. Methods
@@ -37,34 +26,67 @@ Mini_project2
        4. Multiplication
             1. Methods
                 1. Multiply multiple numbers
-       5. Mean
-            1. Methods
-                1. Use Sum of values and Divide by values
-       6. Median
-            1. Methods
-                1. Numpy.Median
-       7. Mode 
-            1. Methods
-                1. Numpy.Mode
-       8. Variance
-            1. Methods
-       9. Standard Deviation
-            1. Methods
-       10. Quartiles
-            1. Methods
-       11. Skewness
-            1. Methods
-       12. Sample Correlation
-            1. Methods
-       13. Population Correlation
-            1. Methods
-       14. Z-Score  
-            1. Methods
-       15. Mean Deviation 
-            1. Methods
-       16. Square
+       5. Square
             1. Methods
                 1. Square 2 numbers
-       17. SquareRoot
+       6. SquareRoot
             1. Methods
                 1. Square Root of 2 numbers
+         
+2. Statistics Object
+    1. Properties
+        1. Result
+    2. Methods
+        1. Mean - Calls Mean method
+        2. Median - Calls Median method
+        3. Mode - Calls Mode method
+        4. Variance - Calls Variance method
+        5. Standard Deviation - Calls Standard Deviation method
+        6. Population Correlation - Calls Population Correlation method
+        7. Z-Score - Calls Z-Score method
+        8. Mean Deviation - Calls Mean Deviation method 
+        9. Cochran - Calls Cochran method
+        10. Confidence Interval - Calls Confidence Interval method
+        11. Known Population - Calls Known Population method
+        12. Margin of Error - Calls Margin of Error method
+        13. Unknown Population - Calls Unknown Population method
+    3. Operation Classes
+       1. Mean
+            1. Methods
+                1. Use Sum of values and Divide by values
+       2. Median
+            1. Methods
+                1. Numpy.Median
+       3. Mode 
+            1. Methods
+                1. Sort numbers in order, detect most appearing number
+       4. Variance
+            1. Methods
+                1. Using mean, square differences of each data type
+       5. Standard Deviation
+            1. Methods
+                1. Square Root of Variance
+       6. Population Correlation
+            1. Methods
+                1. Multiply Z-Scores, sum the products and divide by scores
+       7. Z-Score  
+            1. Methods
+                1. Mean of a group 
+       8. Mean Deviation 
+            1. Methods
+                1. Calculate difference of values from mean
+       9. Cochran
+            1. Methods
+                1. Using variability, desired confidence level to get z to determine sampling
+       10. Confidence Interval
+            1. Methods
+                1. Plus or Minus margin for error on calculation
+       11. Known Population
+            1. Methods
+                1. https://people.richland.edu/james/lecture/m170/ch08-mu.html
+       12. Margin of Error
+            1. Methods
+                1. https://www.statisticshowto.datasciencecentral.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+       13. Unknown Population
+            1. Methods
+                1. https://people.richland.edu/james/lecture/m170/ch08-mu.html
