@@ -7,6 +7,8 @@
         3. Random Number With Seed - Calls Random Number With Seed method
         4. Random Number Without Seed - Calls Random Number Without Seed method
         5. Random List With Seed - Calls Random List With Seed method
+        6. Number of items with seed - Calls Number with seed
+        7. Number of items without seed - Calls Number without seed
     3. Operation Classes
         1. Random Item Without Seed
             1. Methods
@@ -23,3 +25,9 @@
         5. Random List With Seed 
             1. Methods
                 1. Defined starting and ending variable along with setting a range for how many values to select from randint function
+        6. Number With Seed
+            1. Methods
+                1. Sampling of a set range of data with selected sample size with seed
+        7. Numbers Without Seed
+            1. Methods
+                1. Sampling of a set range of data with selected sample size without seed

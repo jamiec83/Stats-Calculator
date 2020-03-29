@@ -4,6 +4,8 @@ from RandomNumber.randomnum import woseed
 from RandomNumber.randomnum import randomlist
 from RandomNumber.randomnum import itemlist
 from RandomNumber.randomnum import itemlistwseed
+from RandomNumber.Nlistwithoutseed import nlistwo
+from RandomNumber.Nlistwseed import nlistw
 from pprint import pprint
 import unittest
 
@@ -34,3 +36,11 @@ class MyTestCase(unittest.TestCase):
     def test_itemlistwseed_statistics(self):
         pprint("Generate Item from List with seed: Ok")
         print(itemlistwseed(set))
+
+    def test_nlistwseed_statistics(self):
+        pprint("Generate set number of items from List with seed: Ok")
+        print(nlistw(set))
+
+    def test_nlistwoseed_statistics(self):
+        pprint("Generate set number of item from List: Ok")
+        print(nlistwo(set))
