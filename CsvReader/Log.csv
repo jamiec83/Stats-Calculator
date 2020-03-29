@@ -7,8 +7,6 @@ Added: Random Number methods and testing, jamiec83, 3/28/20, 5:20 PM, 779a3b79
 Updated: ReadME, jamiec83, 3/28/20, 4:46 PM, 28a1796f
 Updated: Unit Testing Output, jamiec83, 3/28/20, 11:44 AM, f8bb30c8
 Updated: Seperated Population Testing, jamiec83, 3/28/20, 11:29 AM, 9d1ee968
-Fixed: Unit Testing, jamiec83, 3/27/20, 11:44 PM, f5b10470
-Fixed: Median Unit Test, jamiec83, 3/27/20, 11:10 PM, 324e2125
 Updated: README.md, jamiec83, 3/27/20, 11:01 PM, 64f6f331
 Added: Correlation Testing Sampling Testing, jamiec83, 3/27/20, 10:41 PM, 5672ad9e
 added population sampling, rahul, 3/27/20, 6:00 PM, d5edcc88
@@ -33,7 +31,6 @@ Fix: added all untracked files, Chuck146, 3/24/20, 10:14 PM, 2a438bb6
 Task: added log under csv, Chuck146, 3/24/20, 8:30 PM, aa4c0a81
 Added: Docker Functionality and CSVs for calculator, jamiec83, 3/18/20, 1:32 PM, e003db7d
 Added: Calculator Testing, jamiec83, 3/18/20, 12:38 PM, 1a3585bc
-Fixed: Calculator Method and Mean Method, jamiec83, 3/17/20, 9:29 PM, 33f8c5db
 Added: Initial Methods for Stats and Calculator, jamiec83, 3/17/20, 9:19 PM, 2b675352
 Added: Dockerfile CSVReader FileUtilities, jamiec83, 3/17/20, 2:43 PM, 3abdb2cf
 Added: Travis file, jamiec83, 3/17/20, 2:20 PM, 2dae5a86
