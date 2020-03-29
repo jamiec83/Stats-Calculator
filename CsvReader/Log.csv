@@ -1,4 +1,54 @@
-Hash,User,Date,Description
-,,,
-,,,
-,,,
+Description,User,Date and time,Hash
+Added: Setup.py, jamiec83, 3/28/20, 9:07 PM, b9162688
+Added: Sampling Unit Tests, jamiec83, 3/28/20, 9:01 PM, 6b4fe1c1
+Added: Sampling Unit Tests, jamiec83, 3/28/20, 8:46 PM, 6789602b
+added two more functions in population sampling, rahul, 3/28/20, 7:55 PM, 039ecaba
+Added: Random Number References, jamiec83, 3/28/20, 5:36 PM, 05ca1d2e
+Added: Random Number methods and testing, jamiec83, 3/28/20, 5:20 PM, 779a3b79
+Updated: ReadME, jamiec83, 3/28/20, 4:46 PM, 28a1796f
+Updated: ReadME, jamiec83, 3/28/20, 11:56 AM, 80983163
+Updated: Unit Testing Output, jamiec83, 3/28/20, 11:44 AM, f8bb30c8
+Updated: Seperated Population Testing, jamiec83, 3/28/20, 11:29 AM, 9d1ee968
+Fixed: Median Unit Testing, jamiec83, 3/28/20, 11:25 AM, c323af18
+Fixed: Unit Testing, jamiec83, 3/27/20, 11:44 PM, f5b10470
+Fixed: Median Unit Test, jamiec83, 3/27/20, 11:10 PM, 324e2125
+Updated: README.md, jamiec83, 3/27/20, 11:01 PM, 64f6f331
+Added: Correlation Testing Sampling Testing, jamiec83, 3/27/20, 10:41 PM, 5672ad9e
+added population sampling, rahul, 3/27/20, 6:00 PM, d5edcc88
+Fix: "Pvalue was giving us issues but import to statistics module was missing.", Chuck146, 3/27/20, 1:28 AM, 328bfb39
+Feature: "Pvalue module created.", Chuck146, 3/27/20, 1:24 AM, aafd8607
+Fix: "correction to code generating error.", Chuck146, 3/27/20, 12:33 AM, 1d3d012b
+Added: Var Cor Z-Value Unit Testing, jamiec83, 3/26/20, 11:27 PM, c70a0d69
+Fixed: Unit Testing, jamiec83, 3/26/20, 10:51 PM, ecf6e57b
+Fixed: Unit Testing, jamiec83, 3/26/20, 10:33 PM, c7e6a1aa
+Fixed: push, jamiec83, 3/26/20, 9:46 PM, e0051665
+Fixed: push, jamiec83, 3/26/20, 9:24 PM, 07cdb566
+Added: MeanDev Quartiles and Skewness, jamiec83, 3/26/20, 8:28 PM, 78f079e1
+Fixed: statistics.py, jamiec83, 3/26/20, 7:55 PM, 4bd21b76
+Added: References to statistics.py, jamiec83, 3/26/20, 7:51 PM, fc8fc08f
+Task: "Completed imports to stats module to create class", Chuck146, 3/26/20, 1:54 AM, 3f8212c3
+Task: "modified mode formula but may need to check again", Chuck146, 3/26/20, 1:25 AM, 06b331f3
+Feature: "Added mode formula", Chuck146, 3/26/20, 1:10 AM, 7bb31aea
+Feature: "Added median formula", Chuck146, 3/26/20, 12:50 AM, 165c6d5c
+Feature: "Added formula to z_score module", Chuck146, 3/25/20, 11:52 PM, a71c4144
+Feature: "Added formula to std_deviation and renamed module", Chuck146, 3/25/20, 11:45 PM, e8e2ebe6
+Task: "modified print statement on Variance.py", Chuck146, 3/25/20, 11:19 PM, 20b31694
+Task: checked status on variance folder,Chuck146, 3/25/20, 11:14 PM 0079e05c
+Fixed: Ignored .idea, jamiec83, 3/25/20, 11:02 PM, bb87ccc5
+Fixed: Ignored .idea, jamiec83, 3/25/20, 10:58 PM, 714cbb7e
+Fixed: Ignored .idea, jamiec83, 3/25/20, 10:53 PM, aa05ebb1
+Feature: variance formula added, Chuck146, 3/25/20, 10:34 PM, 4c2bb514
+Fix: added all untracked files, Chuck146, 3/24/20, 10:14 PM, 2a438bb6
+Task: added log under csv, Chuck146, 3/24/20, 8:30 PM, aa4c0a81
+Added: Docker Functionality and CSVs for calculator, jamiec83, 3/18/20, 1:32 PM, e003db7d
+Fixed: README, jamiec83, 3/18/20, 12:44 PM, 84120d55
+Fixed: Calculator Testing, jamiec83, 3/18/20, 12:40 PM, 2bfb4b09
+Added: Calculator Testing, jamiec83, 3/18/20, 12:38 PM, 1a3585bc
+Fixed: Calculator Method and Mean Method, jamiec83, 3/17/20, 9:29 PM, 33f8c5db
+Added: Initial Methods for Stats and Calculator, jamiec83, 3/17/20, 9:19 PM, 2b675352
+Added: Build Status, jamiec83, 3/17/20, 9:05 PM, 6b461ef9
+Added: Tests Folder, jamiec83, 3/17/20, 9:03 PM, 50c8aab9
+Added: Dockerfile CSVReader FileUtilities, jamiec83, 3/17/20, 2:43 PM, 3abdb2cf
+Added: Travis file| jamiec83, 3/17/20, 2:20 PM, 2dae5a86
+Initial Plan Layout| jamiec83, 3/17/20, 1:53 PM, e3961deb
+Initial commit| chuck146*, 3/14/20, 9:07 PM, f006ef8b
