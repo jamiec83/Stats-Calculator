@@ -5,6 +5,8 @@ from PopulationSampling.confidenceinterval import ConfInt
 from PopulationSampling.knownpopulation import ssk
 from PopulationSampling.marginoferror import marginerror
 from PopulationSampling.unknownpopulationsd import ssu
+from PopulationSampling.systematic import sys_sample
+from PopulationSampling.simplerandom import ran_sample
 
 class PopSamp(Calculator):
     data = []
@@ -30,4 +32,12 @@ class PopSamp(Calculator):
 
     def upop(self, data):
         self.result = ssu(data)
+        return self.result
+
+    def systematic(self, data):
+        self.result = sys_sample(data)
+        return self.result
+
+    def simpran(self, data):
+        self.result = ran_sample(data)
         return self.result

@@ -7,6 +7,8 @@
         3. Known Population - Calls Known Population method
         4. Margin of Error - Calls Margin of Error method
         5. Unknown Population - Calls Unknown Population method
+        6. Systematic Sampling - Calls Systematic Sampling method
+        7. Simple Random Sampling - Calls Simple Random Sampling method 
         
     3. Operation Classes
        1. Cochran
@@ -24,3 +26,9 @@
        5. Unknown Population
             1. Methods
                 1. https://people.richland.edu/james/lecture/m170/ch08-mu.html
+       6. Systematic Sampling
+            1. Methods
+                1. Set range with select number of values desired from data
+       7. Simple Random Sampling
+            1. Methods
+                1. Random data sampling from data
