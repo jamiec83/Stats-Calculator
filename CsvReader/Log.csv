@@ -27,7 +27,7 @@ Feature: Added median formula, Chuck146, 3/26/20, 12:50 AM, 165c6d5c
 Feature: Added formula to z_score module, Chuck146, 3/25/20, 11:52 PM, a71c4144
 Feature: Added formula to std_deviation and renamed module, Chuck146, 3/25/20, 11:45 PM, e8e2ebe6
 Task: modified print statement on Variance.py, Chuck146, 3/25/20, 11:19 PM, 20b31694
-Task: checked status on variance folder,Chuck146, 3/25/20, 11:14 PM 0079e05c
+Task: checked status on variance folder,Chuck146, 3/25/20, 11:14 PM, 0079e05c
 Feature: variance formula added, Chuck146, 3/25/20, 10:34 PM, 4c2bb514
 Fix: added all untracked files, Chuck146, 3/24/20, 10:14 PM, 2a438bb6
 Task: added log under csv, Chuck146, 3/24/20, 8:30 PM, aa4c0a81
@@ -36,5 +36,5 @@ Added: Calculator Testing, jamiec83, 3/18/20, 12:38 PM, 1a3585bc
 Fixed: Calculator Method and Mean Method, jamiec83, 3/17/20, 9:29 PM, 33f8c5db
 Added: Initial Methods for Stats and Calculator, jamiec83, 3/17/20, 9:19 PM, 2b675352
 Added: Dockerfile CSVReader FileUtilities, jamiec83, 3/17/20, 2:43 PM, 3abdb2cf
-Added: Travis file| jamiec83, 3/17/20, 2:20 PM, 2dae5a86
-Initial commit| chuck146*, 3/14/20, 9:07 PM, f006ef8b
+Added: Travis file, jamiec83, 3/17/20, 2:20 PM, 2dae5a86
+Initial commit, chuck146*, 3/14/20, 9:07 PM, f006ef8b
